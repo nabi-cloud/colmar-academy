@@ -1,0 +1,102 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Page Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
+    height: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+
+/* 2. Typography Styles
+======================================== */
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+a {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+}
+
+nav .text-logo {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+nav .regular {
+    font-weight: 400;
+}
+
+/* 3. Structure Styles
+======================================== */
+
+
+/* 4. Module Styles
+======================================== */
+header { /*Navigation Bar*/
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.nav-logo,
+.nav-logo a { 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.colmar-logo {
+    height: 3rem;
+    width: 2.531rem;
+}
+
+
+
+/* 5. Page Styles
+======================================== */
