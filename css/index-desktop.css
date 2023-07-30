@@ -31,19 +31,18 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-main {
-    height: 100%;
-}
-
 img {
-    height: 100%;
+    height: auto;
+    width: 100%;
 }
 
 
 /* 2. Typography Styles
 ======================================== */
 h1,
-h2 {
+h2,
+h3 {
+    color: #4a4a4a;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -63,18 +62,65 @@ button {
     font-family: 'Prompt', sans-serif;
 }
 
+.nav-link a {
+    color: #4a4a4a;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.125rem;
+}
+
 nav .text-logo {
+    columns: #4a4a4a;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
 nav .regular {
+    color: #a8a8a8;
     font-weight: 400;
+}
+
+.campus-section h1,
+.course-section h1,
+.thesis-section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 2rem 0;
+}
+
+.banner-section h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.banner-section h2 {
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 /* 3. Structure Styles
 ======================================== */
+.left {
+    padding: 2rem 1.5rem;
+    width: 60%;
+}
 
+.right {
+    padding: 1rem 0 1rem 1rem;
+    width: 40%;
+}
+
+button {
+    border: none;
+    background-color: #4a4a4a;
+    color: #f3f5f5;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    width: 85%;
+}
 
 /* 4. Module Styles
 ======================================== */
@@ -82,6 +128,16 @@ header { /*Navigation Bar*/
     position: sticky;
     top: 0;
     width: 100%;
+}
+
+header nav {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0 1.5rem;
 }
 
 .nav-logo,
@@ -96,7 +152,43 @@ header { /*Navigation Bar*/
     width: 2.531rem;
 }
 
+.nav-link,
+.nav-link ul {
+    align-items: center;
+    display: flex;
+    column-gap: 1rem;
+}
 
+.nav-link .mobile {
+    display: none;
+}
+
+footer {
+    background-color: #f3f5f5;
+    height: 7.5rem;
+}
+
+.footer-section { /*Footer*/
+    border-top: 1px solid #c9caca;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 0;
+}
+
+.footer-link {
+    column-gap: 1rem;
+    display: flex;
+}
 
 /* 5. Page Styles
 ======================================== */
+.banner-section {
+    background-color: #d8d8d8;
+    display: flex;
+}
+
+.banner-section .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
