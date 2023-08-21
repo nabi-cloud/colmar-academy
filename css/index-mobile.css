@@ -1,5 +1,119 @@
-@media screen and (max-width: 600px) {
-    .desktop {
+@media screen and (max-width: 670px) {
+    .desktop,
+    .nav-logo {
         display: none;
+    }
+
+    .colmar-logo {
+        height: 32px;
+        width: 27px;
+    }
+
+    #mobile {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #mobile a {
+        align-items: center;
+        display: flex;
+    }
+
+    .left {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .desktop-2 {
+        display: none;
+    }
+    
+    .left {
+        padding: 0;
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .campus-section .right img {
+        height: auto;
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-section .right {
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .banner-section h1 {
+        margin-top: 2rem;
+    }
+
+    .campus-section {
+        padding: 0;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .box-text {
+        padding-top: 1.5rem;
+        width: 100%;
+    }
+
+    .course-section {
+        padding: 2rem 1rem;
+    }
+
+    .course-section h1 {
+        margin-bottom: 2rem;
+    }
+
+    .course-info {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .course-box {
+        flex: 100%;
+    }
+
+    .thesis-section {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .thesis-section h1 {
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer-section {
+        border: none;
+        padding: 1rem 1rem;
+    }
+
+    .footer-section p {
+        font-size: 0.75rem;
     }
 }

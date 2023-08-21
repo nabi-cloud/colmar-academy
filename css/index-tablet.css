@@ -1,4 +1,4 @@
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 952px) {
     nav .text-logo {
         font-size: 1.5rem;
     }
@@ -28,5 +28,18 @@
 
     .uppercase {
         font-size: 1rem;
+    }
+
+    br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .banner-section h1,
+    .campus-section h1,
+    .course-section h1,
+    .thesis-section h1 {
+        font-size: 1.5rem;
     }
 }
